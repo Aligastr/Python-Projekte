@@ -1,1 +1,1 @@
-token = "5714134799:AAHX6gRXV5J8ej-Ii7yZTaIxABZw_4O66zk"
+token = "D:\python_projekte\fitness_rechner\fitness"
