@@ -1,5 +1,5 @@
 #hi
-
+#hi Test das sollte anders sein
 
 list = []
 with open("adjektive_a.txt", "r", encoding="utf-8") as f:
