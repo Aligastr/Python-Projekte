@@ -1,5 +1,5 @@
 #hi
-#hi Test das sollte anders sein 2
+
 
 list = []
 with open("adjektive_a.txt", "r", encoding="utf-8") as f:
@@ -13,9 +13,9 @@ count_negativ = 0
 print('Regeln: Für stop schreib "stop"')
 for i in list:
     print(i)
-    pruf = input('gib dein text: ')
+    pruf = input('Geben Sie den Text ein: ')
     if pruf == 'stop' or pruf == 'Stop':
-        print(f'Du hast richtig {count} Wörter und falsch {count_negativ} Wörter geschrieben.')
+        print(f'Du hast  {count} Wörter richtig und  {count_negativ} Wörter falsch geschrieben.')
         break
     elif i == pruf:
         print('richtig')
